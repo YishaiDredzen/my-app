@@ -4,9 +4,9 @@ import './App.css';
 function App() {
 
 const results = [
-  { text: "war", filename: "war.mp3"},
-  { text: "peace", filename: "peace.mp3"},
-  { text: "state", filename: "state.mp3"},
+  { text: "wars", filename: "war.mp3"},
+  { text: "peaces", filename: "peace.mp3"},
+  { text: "states", filename: "state.mp3"},
 ]
 
   return (
