@@ -2,6 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+const results = [
+  { text: "war", filename: "war.mp3"},
+  { text: "peace", filename: "peace.mp3"},
+  { text: "state", filename: "state.mp3"},
+]
+
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +24,18 @@ function App() {
         >
           Learn React
         </a>
+        <p>
+          <input type="text"></input>
+      
+          <button>
+            Enter
+          </button>
+          <div>
+            <ul>
+              {results.map(result => <li><a href="">{result.text}</a></li>)}
+            </ul>
+          </div>
+        </p>
       </header>
     </div>
   );
