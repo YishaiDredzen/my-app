@@ -5,9 +5,9 @@ import Button from './components/button'
 function App() {
 
 const results = [
-  { text: "war", filename: "war.mp3"},
-  { text: "peace", filename: "peace.mp3"},
-  { text: "state", filename: "state.mp3"},
+  { text: "wars", filename: "war.mp3"},
+  { text: "peaces", filename: "peace.mp3"},
+  { text: "states", filename: "state.mp3"},
 ]
 
 let videoSource = "https://www.youtube.com/embed/mFQYSxWn7hU";
